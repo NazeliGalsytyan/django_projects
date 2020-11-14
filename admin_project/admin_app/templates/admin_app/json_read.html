@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+
+<head> 
+<title> Json reading </title>
+</head>
+
+<h2> This is the JSON file</h2>
+{{data}}
+<br>
+<hr>
+
+<h2>And these are only the values </h2>
+
+{% for k,v in data.items %}
+	{{v}}
+{% endfor %}	
